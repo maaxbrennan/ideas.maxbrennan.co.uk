@@ -219,6 +219,27 @@ nav a {
   color: black;
 }
 
+.scroller-noscroll {
+   height: 50px;
+   padding-bottom: 90px;
+   overflow: hidden;
+   position: relative;
+}
+
+.scroller-noscroll h1 {
+   color: black;
+   position: absolute;
+   bottom: 5px;
+   font-size: 13px;
+   text-align: center;
+   width: 95%;
+   -moz-transform:translateX(100%);
+   -webkit-transform:translateX(100%);
+   transform:translateX(100%);
+  }
+
+
+
 .scroller {
    height: 50px;
    padding-bottom: 90px;
