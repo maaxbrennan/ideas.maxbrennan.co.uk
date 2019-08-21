@@ -551,6 +551,7 @@ img.m4 {
     
 }
 
+
 .images {
   text-align: center;
   padding: 3em;
@@ -1181,3 +1182,6 @@ body::before, body::after {
   animation-delay: 1.2s;
 }
 /* keyframes fadeIn end */
+
+.shop-panel { padding-left:0px; }
+.layout2 { padding: 3em; }
