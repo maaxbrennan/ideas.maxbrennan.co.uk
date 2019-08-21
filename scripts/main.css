@@ -857,19 +857,19 @@ body::before, body::after {
   overflow: hidden;
 }
 .left-shop {
-  left: 0px;
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  border: 1px solid black;
+left: 5px;
+height: 100%;
+width: 42.5%;
+position: absolute;
+border: 1px solid black;
 }
 
 .right-shop {
-  height: 100%;
-  width: 50%;
-  position: absolute;
-  right: 0px;
-  border: 1px solid black;
+	height: 100%;
+	width: 55%;
+	position: absolute;
+	right: 0px;
+	border: 1px solid black;
   
 }
 
