@@ -167,6 +167,7 @@ h1 a {
       font-size: 27px;
       padding-top: 0.35em;
     }    
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -174,6 +175,9 @@ h1 a {
       font-size: 20px;
       padding-top: 0.35em;
     }
+.shop-panel {
+    margin-top: 65px!important;    
+}
 }
 
 .nav {
@@ -419,7 +423,7 @@ nav a {
 #right-nav {
   position: fixed;
   letter-spacing: 1px;
-  right: 31px;
+  right: 20px;
   text-align: center;
   text-transform: uppercase;
   top: 44%;
@@ -849,15 +853,15 @@ body::before, body::after {
 /* keyframes fadeIn end */
 
 .shop-panel {
-  width: 85%;
-  position: absolute;
-  height: 70%;
-  margin-left: 5%;
-  margin-top: 8%;
-  overflow: hidden;
+width: 90%;
+position: absolute;
+height: 75%;
+margin-left: 1%;
+margin-top: 100px;
+overflow: hidden;
 }
+
 .left-shop {
-left: 5px;
 height: 100%;
 width: 42.5%;
 position: absolute;
@@ -879,8 +883,8 @@ border: 1px solid black;
 width: 85%;
 position: absolute;
 height: 80%;
-margin-left: 5%;
-margin-top: 15%;
+margin-left: 4%;
+margin-top: 100px;
 overflow: hidden;
  }
  
