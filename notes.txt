@@ -1,0 +1,7 @@
+https://www.bootstrapcdn.com/
+
+CSS
+https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css
+
+JS
+https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js
