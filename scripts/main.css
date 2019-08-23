@@ -648,7 +648,7 @@ body::after {
     position: absolute;
     height: 78%;
     margin-left: 4%;
-    margin-top: 100px;
+    margin-top: 80px;
     overflow: hidden;
   }
   .left-shop {
@@ -780,7 +780,7 @@ body::after {
     padding-top: 0.35em;
   }
   .shop-panel {
-    margin-top: 65px!important;
+    margin-top: 55px!important;
   }
   nav li {
     font-size: 25px;
