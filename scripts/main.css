@@ -659,7 +659,7 @@ body::after {
     border: 1px solid black;
   }
   .right-shop {
-    height: 50%;
+    height: 45%;
     width: 100%;
     position: relative;
     right: 0;
@@ -772,17 +772,7 @@ body::after {
 }
 
 @media only screen and (max-width: 500px) {
-#right-nav {
-    position: fixed;
-    letter-spacing: 1px;
-    text-align: center;
-    text-transform: uppercase;
-    bottom: 0;
-    z-index: 1;
-    font-weight: 600;
-    top:92%;
-    transform:none;
-}  
+
 }
 @media only screen and (max-width: 450px) {
   h1.logo-left-pre {
@@ -795,6 +785,17 @@ body::after {
   nav li {
     font-size: 25px;
   }  
+  #right-nav {
+    position: fixed;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+    bottom: 0;
+    z-index: 1;
+    font-weight: 600;
+    top:92%;
+    transform:none;
+}  
 }
 
 /* --------------------------  MEDIA QUERIES END  ------------------------------------ */
