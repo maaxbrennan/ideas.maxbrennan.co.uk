@@ -608,7 +608,6 @@ body::after {
   height: 75%;
   margin-left: 1%;
   margin-top: 100px;
-  overflow: hidden;
 }
 
 .left-shop {
@@ -637,9 +636,6 @@ body::after {
 
 
 
-
-
-
 /* --------------------------  MEDIA QUERIES START  --------------------------------- */
 
 @media screen and (max-width: 768px) {
@@ -649,7 +645,6 @@ body::after {
     height: 78%;
     margin-left: 4%;
     margin-top: 80px;
-    overflow: hidden;
   }
   .left-shop {
     left: 0px;
@@ -666,9 +661,12 @@ body::after {
     bottom: 0;
     margin-top: 20px;
     border: 0px solid black;
+    padding:10px;
   }
   #right-nav {
     right: 20px;
+    width:100%;
+    background-color:#F0F0F0;
   }
 }
 
@@ -774,9 +772,10 @@ body::after {
 @media only screen and (max-width: 500px) {
 
 }
+
 @media only screen and (max-width: 450px) {
   h1.logo-left-pre {
-    font-size: 20px;
+    font-size: 19.6px;
     padding-top: 0.35em;
   }
   .shop-panel {
